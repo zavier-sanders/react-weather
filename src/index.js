@@ -8,6 +8,9 @@ import App from './components/app';
 import reducers from './reducers';
 
 import './index.css';
+import './css/normalize.css';
+// import './css/webflow.css';
+import './css/coming-soon-1c6a42.webflow.css';
 
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
 
